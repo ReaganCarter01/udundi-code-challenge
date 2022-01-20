@@ -18,17 +18,15 @@ export default defineComponent({
       <div class="hero-text container">
         <div class="flexbox-container">
         <h2>
-    <div class="flexbox-item">
           Explore
-    </div>
         </h2>
         <svg width="5cm" height="4cm" version="1.1" @click="showModal = true" class="icon-click"
      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<image href="../assets/Plus.svg" x="0" y="0" height="50px" width="50px"/>
+<image href="../assets/Plus.svg" x="0" y="0" height="30px" width="30px"/>
         </svg>
-        <div class="more-detail">
+        <h3>
   More details
-</div>
+</h3>
              <transition name="fade" appear>
   <div class="modal-overlay" v-if="showModal" @click="showModal = false"></div>
  </transition>
@@ -72,7 +70,10 @@ export default defineComponent({
   height: 100vh;
   font-family: 'EssonnesText', bold;
 .flexbox-container{
-    inline-size: 400px;
+     padding-top: 50px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-left: 80px;
   float: left;
   position: fixed;
   z-index: 1;
@@ -82,53 +83,33 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   background-color: #611818;
-  @media (max-width: 1100px) {
-        inline-size: 300px;
-      }
+
 }
 .cl-btn{
 
 }
-.more-detail{
-  flex-wrap: wrap;
+h3{
    color: rgba(250, 250, 250, 0.863);
-  position: fixed;
-  bottom: 30%;
-  left: 240px;
-font-size: 30px;
-@media (max-width: 1100px) {
-        font-size: 20px;
-        left: 140px;
-      }
-
+  position: absolute;
+  top: 64%;
+  right:0px;
+ font-size: 30px;
 }
-.flexbox-item{
+h2{
  margin: 0;
   position: absolute;
   top: 60%;
-  right:120px;
+  right:100px;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-@media (max-width: 1100px) {
-        right:0;
-        top: 65%
-      }
 }
 
 .icon-click{
-  flex-wrap: wrap;
-   margin: 0;
    color: rgba(250, 250, 250, 0.863);
   position: absolute;
-  bottom: 24%;
-  right: 28px;
-font-size: 25px;
-@media (max-width: 1100px) {
-        font-size: 20px;
-        right:10%;
-      }
-
+  right: 20px;
+  top:66%;
 }
   .hero-text {
     height: 100%;
@@ -136,6 +117,10 @@ font-size: 25px;
     flex-direction: column;
     justify-content: center;
     color: #fff;
+      padding-top: 50px;
+    padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 
     h4 {
       text-transform: uppercase;
@@ -239,9 +224,7 @@ font-size: 25px;
   color: #666;
   font-size: 18px;
   font-weight: 400;
-  @media (max-width: 1100px) {
-     font-size: 12px;
-      }
+
  }
 }
 .icon{
@@ -254,11 +237,6 @@ display: block;
   height: 82px;
   background: url("../assets/Instagram.svg");
   background-size: 100px 82px;
-  @media (max-width: 1100px) {
-    width: 60px;
-   height: 82px;
-   background-size: 60px 82px;
-      }
 }
 .icon-1{
 position: absolute;
@@ -270,13 +248,47 @@ display: block;
   height: 82px;
   background: url("../assets/Facebook.svg");
   background-size: 100px 82px;
-   @media (max-width: 1100px) {
-    width: 60px;
-   height: 82px;
-   background-size: 60px 82px;
-   bottom:84px;
-      }
   }
+      @media screen and (max-width: 991px) {
+    .icon{
+       width: 40px;
+   height: 62px;
+   background-size: 40px 62px;
+    }
+      .icon-1{
+       width: 40px;
+   height: 62px;
+   background-size: 40px 62px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+.icon{
+       width: 40px;
+   height: 62px;
+   background-size: 40px 62px;
+    }
+    .icon-1{
+       width: 40px;
+   height: 62px;
+   background-size: 40px 62px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+.icon{
+       width: 40px;
+   height: 62px;
+   background-size: 40px 62px;
+    }
+    .icon-1{
+   width: 40px;
+   height: 62px;
+   bottom: 55px;
+   background-size: 40px 62px;
+    }
+}
   }
   .fade-enter-active,
 .fade-leave-active {
@@ -298,5 +310,60 @@ display: block;
  transform: translateX(10px);
   opacity: 0;
 }
+@media screen and (max-width: 991px) {
+.flexbox-container{
+          padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
+h3{
+  font-size: 18px;
+  top: 62%;
+  right:0px;
+}
+.icon-click{
+   top: 63%;
+  right:100px;
+  left: 25%;
+}
+}
+@media screen and (max-width: 767px) {
+.flexbox-container{
+       padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+h3{
+  font-size: 20px;
+  color:white;
+}
+.icon-click{
+   top: 64%;
+  right:100px;
+  left: 23%;
+}
+}
+
+@media screen and (max-width: 480px) {
+.flexbox-container{
+       padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+h3{
+  font-size: 16px;
+  color:yellow;
+}
+.icon-click{
+   top: 64%;
+  right:100px;
+  left: 10%;
+}
+
+}
+}
+
 </style>
