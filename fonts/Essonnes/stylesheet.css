@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-Italic.eot');
+    src: local('Essonnes Headline Italic'), local('EssonnesHeadline-Italic'),
+        url('EssonnesHeadline-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-Italic.woff2') format('woff2'),
+        url('EssonnesHeadline-Italic.woff') format('woff'),
+        url('EssonnesHeadline-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-BoldItalic.eot');
+    src: local('Essonnes Display Bold Italic'), local('EssonnesDisplay-BoldItalic'),
+        url('EssonnesDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-BoldItalic.woff2') format('woff2'),
+        url('EssonnesDisplay-BoldItalic.woff') format('woff'),
+        url('EssonnesDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-BoldItalic.eot');
+    src: local('Essonnes Headline Bold Italic'), local('EssonnesHeadline-BoldItalic'),
+        url('EssonnesHeadline-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-BoldItalic.woff2') format('woff2'),
+        url('EssonnesHeadline-BoldItalic.woff') format('woff'),
+        url('EssonnesHeadline-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-Bold.eot');
+    src: local('Essonnes Headline Bold'), local('EssonnesHeadline-Bold'),
+        url('EssonnesHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-Bold.woff2') format('woff2'),
+        url('EssonnesHeadline-Bold.woff') format('woff'),
+        url('EssonnesHeadline-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-Regular.eot');
+    src: local('Essonnes Display'), local('EssonnesDisplay-Regular'),
+        url('EssonnesDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-Regular.woff2') format('woff2'),
+        url('EssonnesDisplay-Regular.woff') format('woff'),
+        url('EssonnesDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-Italic.eot');
+    src: local('Essonnes Display Italic'), local('EssonnesDisplay-Italic'),
+        url('EssonnesDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-Italic.woff2') format('woff2'),
+        url('EssonnesDisplay-Italic.woff') format('woff'),
+        url('EssonnesDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-ThinItalic.eot');
+    src: local('Essonnes Headline Thin Italic'), local('EssonnesHeadline-ThinItalic'),
+        url('EssonnesHeadline-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-ThinItalic.woff2') format('woff2'),
+        url('EssonnesHeadline-ThinItalic.woff') format('woff'),
+        url('EssonnesHeadline-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-LightItalic.eot');
+    src: local('Essonnes Display Light Italic'), local('EssonnesDisplay-LightItalic'),
+        url('EssonnesDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-LightItalic.woff2') format('woff2'),
+        url('EssonnesDisplay-LightItalic.woff') format('woff'),
+        url('EssonnesDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-Light.eot');
+    src: local('Essonnes Display Light'), local('EssonnesDisplay-Light'),
+        url('EssonnesDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-Light.woff2') format('woff2'),
+        url('EssonnesDisplay-Light.woff') format('woff'),
+        url('EssonnesDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Display';
+    src: url('EssonnesDisplay-Bold.eot');
+    src: local('Essonnes Display Bold'), local('EssonnesDisplay-Bold'),
+        url('EssonnesDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesDisplay-Bold.woff2') format('woff2'),
+        url('EssonnesDisplay-Bold.woff') format('woff'),
+        url('EssonnesDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Text';
+    src: url('EssonnesText-Bold.eot');
+    src: local('Essonnes Text Bold'), local('EssonnesText-Bold'),
+        url('EssonnesText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesText-Bold.woff2') format('woff2'),
+        url('EssonnesText-Bold.woff') format('woff'),
+        url('EssonnesText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Text';
+    src: url('EssonnesText-Italic.eot');
+    src: local('Essonnes Text Italic'), local('EssonnesText-Italic'),
+        url('EssonnesText-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesText-Italic.woff2') format('woff2'),
+        url('EssonnesText-Italic.woff') format('woff'),
+        url('EssonnesText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-Regular.eot');
+    src: local('Essonnes Headline'), local('EssonnesHeadline-Regular'),
+        url('EssonnesHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-Regular.woff2') format('woff2'),
+        url('EssonnesHeadline-Regular.woff') format('woff'),
+        url('EssonnesHeadline-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Text';
+    src: url('EssonnesText-Regular.eot');
+    src: local('Essonnes Text'), local('EssonnesText-Regular'),
+        url('EssonnesText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesText-Regular.woff2') format('woff2'),
+        url('EssonnesText-Regular.woff') format('woff'),
+        url('EssonnesText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Essonnes Text';
+    src: url('EssonnesText-BoldItalic.eot');
+    src: local('Essonnes Text Bold Italic'), local('EssonnesText-BoldItalic'),
+        url('EssonnesText-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesText-BoldItalic.woff2') format('woff2'),
+        url('EssonnesText-BoldItalic.woff') format('woff'),
+        url('EssonnesText-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Essonnes Headline';
+    src: url('EssonnesHeadline-Thin.eot');
+    src: local('Essonnes Headline Thin'), local('EssonnesHeadline-Thin'),
+        url('EssonnesHeadline-Thin.eot?#iefix') format('embedded-opentype'),
+        url('EssonnesHeadline-Thin.woff2') format('woff2'),
+        url('EssonnesHeadline-Thin.woff') format('woff'),
+        url('EssonnesHeadline-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
